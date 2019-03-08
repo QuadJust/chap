@@ -1,4 +1,4 @@
-LINE Stamp addon for ChatLuck
+LINE stamp addon for ChatLuck
 ========================
 
 概要
