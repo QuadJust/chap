@@ -1,16 +1,16 @@
-LINE Stamp addon for ChatLuck
+LINE stamp addon
 ========================
 
-概要
+Overview
 -----
 
-ChatLuckでLINEのアイコンを使えるようにするプラグイン
+-
 
 
-各種ドキュメント/サンプルページ
+Documet and Sample
 -----------------------------------
 
-- なし
+-
 
 
 License
