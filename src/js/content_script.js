@@ -1,7 +1,7 @@
 ﻿(function() {
     console.log('Chap on!')
 
-    const IMAGE_NUM = 18;
+    const IMAGE_NUM = 17;
     
     let $menu = $('#home-message-emoticon-tab-stamp');
     let imageURL = chrome.extension.getURL(`icons/icon.png`);
@@ -13,7 +13,7 @@
 
         let $stamp = $('#home-message-emoticon-tab-stamp');
         $stamp.find('ul').html('');
-        for (let i = 1; i < IMAGE_NUM; i++) {
+        for (let i = 1; i <= IMAGE_NUM; i++) {
             let imageURL = `https://dl.stickershop.line.naver.jp/products/0/0/100/1/android/stickers/${i}.png`;
     
             let stampIcon = `<li data-category="0" data-id="1" data-url="${imageURL}" title="LINE${i}"><a href="#"><img src="${imageURL}" alt="LINE${i}"></a></li>`;
