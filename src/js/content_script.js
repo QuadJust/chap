@@ -15,14 +15,14 @@
         let $stamp = $('#home-message-emoticon-tab-stamp');
         $stamp.find('ul').html('');
         for (let i = 1; i <= IMAGE_NUM; i++) {
-            let imageURL = `https://dl.stickershop.line.naver.jp/products/0/0/100/1/android/stickers/${i}.png`;
+            let imageURL = `http://dl.stickershop.line.naver.jp/products/0/0/100/1/android/stickers/${i}.png`;
     
             let stampIcon = `<li data-category="0" data-id="1" data-url="${imageURL}" title="LINE${i}"><a href="#"><img src="${imageURL}" alt="LINE${i}"></a></li>`;
             $stamp.find('ul').append(stampIcon);
         }
 
         for (let i = 18; i <= IMAGE_NUM2; i++) {
-            let imageURL = `https://dl.stickershop.line.naver.jp/products/0/0/100/2/android/stickers/${i}.png`;
+            let imageURL = `http://dl.stickershop.line.naver.jp/products/0/0/100/2/android/stickers/${i}.png`;
     
             let stampIcon = `<li data-category="0" data-id="1" data-url="${imageURL}" title="LINE${i}"><a href="#"><img src="${imageURL}" alt="LINE${i}"></a></li>`;
             $stamp.find('ul').append(stampIcon);
